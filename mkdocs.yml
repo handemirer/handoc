@@ -1,8 +1,6 @@
 site_name: Han Doc
 theme:
     name: material
-    logo: images/logo.png
-    favicon: images/logo.png
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
