@@ -1,6 +1,7 @@
 site_name: Han Doc
 theme:
     name: material
+    logo: assets/logo.svg
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
