@@ -1,9 +1,14 @@
 site_name: Han Doc
 theme:
     name: material
+repo_url: https://github.com/handemirer/handoc/
+edit_uri: '?query=root/path/docs/'
+edit_uri: '#root/path/docs/'
+edit_uri: root/path/docs/
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+ 
