@@ -19,8 +19,8 @@ class CustomViewGroup @JvmOverloads constructor(
     val titleTextView: TextView
     val trailTextView: TextView
 
-    var _title: String = ""
-    var _trail: String = ""
+    private var _title: String = ""
+    private var _trail: String = ""
 
     var title: String
         get() = _title
@@ -32,7 +32,7 @@ class CustomViewGroup @JvmOverloads constructor(
         get() = _trail
         set(value) {
             _trail = value
-            titleTextView.text = value
+            subtitleTextView.text = value
         }
 
     init {
