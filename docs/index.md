@@ -1,3 +1,3 @@
 # Welcome to Han Doc
 
-![ss](../img/s.jpg)
+![ss](../img/s.png)
