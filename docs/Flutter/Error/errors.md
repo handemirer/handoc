@@ -2,7 +2,8 @@
 
 ## framework not found Pods_OneSignalNotificationServiceExtension
 
-https://github.com/OneSignal/OneSignal-Flutter-SDK/issues/472#issuecomment-979504776
+[issue link](https://github.com/OneSignal/OneSignal-Flutter-SDK/issues/472#issuecomment-979504776)
+
 ---
 
 So i've manage to get through this:
