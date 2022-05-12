@@ -16,7 +16,9 @@ Set both Excluded Architectures in Runner and OneSignalNotificationExtension wit
 In Podfile add:
 
 ```
-config.build_settings.delete 'IPHONEOS_DEPLOYMENT_TARGET' config.build_settings['EXCLUDED_ARCHS[sdk=iphonesimulator*]'] = 'arm64 i386' config.build_settings["ONLY_ACTIVE_ARCH"] = "YES"
+config.build_settings.delete 'IPHONEOS_DEPLOYMENT_TARGET' 
+config.build_settings['EXCLUDED_ARCHS[sdk=iphonesimulator*]'] = 'arm64 i386' 
+config.build_settings["ONLY_ACTIVE_ARCH"] = "YES"
 ```
 
 ![ss](../../img/error-3.png)
