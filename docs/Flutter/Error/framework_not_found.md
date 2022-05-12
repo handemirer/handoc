@@ -1,6 +1,4 @@
-# Errors
-
-## framework not found Pods_OneSignalNotificationServiceExtension
+# framework not found Pods_OneSignalNotificationServiceExtension
 
 [issue link](https://github.com/OneSignal/OneSignal-Flutter-SDK/issues/472#issuecomment-979504776)
 
