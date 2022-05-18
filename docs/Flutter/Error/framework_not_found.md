@@ -20,3 +20,6 @@ config.build_settings["ONLY_ACTIVE_ARCH"] = "YES"
 ```
 
 ![ss](../../img/error-3.png)
+
+
+# !!!Validate arch!!! 
