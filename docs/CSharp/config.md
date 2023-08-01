@@ -1,7 +1,6 @@
 # Configuration 
 
 ``` c#
-// Normally in a namespace, of course.
 IConfiguration configuration = builder.Configuration;
 IWebHostEnvironment environment = builder.Environment;
  
