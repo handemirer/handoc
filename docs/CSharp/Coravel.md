@@ -4,7 +4,7 @@
 using Coravel;
  
 builder.Services.AddTransient<DataBufferBackup>(); 
-
+builder.Services.AddScheduler();
 app.Services.UseScheduler(scheduler =>
 {
     scheduler.Schedule<DataBufferBackup>().EveryFiveMinutes();
