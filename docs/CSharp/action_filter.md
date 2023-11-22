@@ -18,12 +18,11 @@ public class ValidationFilterAttribue : ActionFilterAttribute
             + $"Controller : {controller}"
             + $"Action : {action}"
             );
-            return; 
+            return; //400
         }
 
         if(!context.ModelState.IsValid){
-            context.Result = new UnprocessableEntityObjectResult(context.ModelState);
-            return;
+            context.Result = new UnprocessableEntityObjectResult(context.ModelState); //422
         }
     }
 } 
@@ -31,4 +30,8 @@ public class ValidationFilterAttribue : ActionFilterAttribute
 
 ``` c# 
 builder.Services.AddScoped<ValidationFilterAttribue>()
+```
+
+``` c# 
+[ServiceFilter(typeof(ValidationFilterAttribue))]
 ```
