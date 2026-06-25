@@ -1,5 +1,0 @@
-# Github Integration
-
-Development setting ->  
-
-

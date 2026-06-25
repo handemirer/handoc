@@ -16,15 +16,6 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
 nav:
-  - Home: index.md
-  - Android:
-      - Android: Android/index.md
-  - CSharp:
-      - CSharp: CSharp/index.md
-  - Jenkins:
-      - Jenkins: Jenkins/index.md
-  - Postman:
-      - Postman: Postman/index.md
   - Mülakat Hazırlığı:
       - Genel Bakış: interview-prep/index.md
       - Kendini Tanıtma: interview-prep/self-introduction.md
