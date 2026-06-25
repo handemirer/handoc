@@ -1,23 +1,67 @@
 site_name: Han Doc
+site_description: Han Demirer kişisel teknik dokümantasyon ve mülakat hazırlık notları
+site_author: Han Demirer
+site_url: https://handemirer.github.io/handoc/
+copyright: Copyright &copy; 2026 Han Demirer
 theme:
     name: material
+    language: tr
     features:
     - announce.dismiss
     - content.action.edit
     - content.action.view
     - content.code.annotate
     - content.code.copy
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
+    - search.highlight
+    - search.suggest
+    - toc.follow
 repo_url: https://github.com/handemirer/handoc/
 edit_uri: edit/main/docs/
+plugins:
+  - search:
+      lang: tr
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - admonition
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji
+  - pymdownx.mark
+  - pymdownx.keys
+  - pymdownx.caret
+  - pymdownx.tilde
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/handemirer
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/handemirer
+      name: LinkedIn
 nav:
   - Mülakat Hazırlığı:
       - Genel Bakış: interview-prep/index.md
+      - Yol Haritası: interview-prep/roadmap.md
+      - Rol Beklentileri: interview-prep/role-expectations.md
       - Kendini Tanıtma: interview-prep/self-introduction.md
       - Teknik Konular:
           - Genel Bakış: interview-prep/technical-topics/index.md
@@ -32,6 +76,13 @@ nav:
           - Observability: interview-prep/technical-topics/observability.md
           - Security / Auth: interview-prep/technical-topics/security-auth.md
           - Performance / Scalability: interview-prep/technical-topics/performance-scalability.md
+      - System Design Case'leri:
+          - Genel Bakış: interview-prep/system-design-cases/index.md
+          - Real-Time Market Data System: interview-prep/system-design-cases/realtime-market-data-system.md
+          - Notification System: interview-prep/system-design-cases/notification-system.md
+          - Log Processing System: interview-prep/system-design-cases/log-processing-system.md
+          - URL Shortener: interview-prep/system-design-cases/url-shortener.md
+          - Stock Price API: interview-prep/system-design-cases/stock-price-api.md
       - Proje Anlatımları:
           - Genel Bakış: interview-prep/project-stories/index.md
           - Real-Time Market Data: interview-prep/project-stories/realtime-market-data.md
@@ -44,9 +95,30 @@ nav:
           - Teknik Sorular: interview-prep/interview-questions/technical-questions.md
           - Davranışsal Sorular: interview-prep/interview-questions/behavioral-questions.md
           - Şirkete Sorulacak Sorular: interview-prep/interview-questions/company-questions.md
+      - Coding Practice:
+          - Genel Bakış: interview-prep/coding-practice/index.md
+          - .NET Common Patterns: interview-prep/coding-practice/dotnet-common-patterns.md
+          - LINQ: interview-prep/coding-practice/linq.md
+          - Async / Await: interview-prep/coding-practice/async-await.md
+          - Collections: interview-prep/coding-practice/collections.md
+      - Mock Interview:
+          - Genel Bakış: interview-prep/mock-interviews/index.md
+          - Backend Engineer: interview-prep/mock-interviews/backend-engineer.md
+          - Senior Backend Engineer: interview-prep/mock-interviews/senior-backend-engineer.md
+          - Software Architect: interview-prep/mock-interviews/software-architect.md
+          - Team Lead: interview-prep/mock-interviews/team-lead.md
+      - Cheat Sheets:
+          - Genel Bakış: interview-prep/cheat-sheets/index.md
+          - .NET: interview-prep/cheat-sheets/dotnet.md
+          - Redis: interview-prep/cheat-sheets/redis.md
+          - Kafka: interview-prep/cheat-sheets/kafka.md
+          - PostgreSQL: interview-prep/cheat-sheets/postgresql.md
+          - System Design: interview-prep/cheat-sheets/system-design.md
       - Eksik Konular:
           - Genel Bakış: interview-prep/weak-areas/index.md
           - Çalışma Planı: interview-prep/weak-areas/study-plan.md
       - Mülakat Notları:
           - Genel Bakış: interview-prep/interview-notes/index.md
-          - Not Şablonu: interview-prep/interview-notes/template.md 
+          - Not Şablonu: interview-prep/interview-notes/template.md
+      - Mülakat Takibi:
+          - Genel Bakış: interview-prep/interview-tracker/index.md 
