@@ -14,4 +14,48 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences 
+  - pymdownx.superfences
+nav:
+  - Home: index.md
+  - Android:
+      - Android: Android/index.md
+  - CSharp:
+      - CSharp: CSharp/index.md
+  - Jenkins:
+      - Jenkins: Jenkins/index.md
+  - Postman:
+      - Postman: Postman/index.md
+  - Mülakat Hazırlığı:
+      - Genel Bakış: interview-prep/index.md
+      - Kendini Tanıtma: interview-prep/self-introduction.md
+      - Teknik Konular:
+          - Genel Bakış: interview-prep/technical-topics/index.md
+          - .NET: interview-prep/technical-topics/dotnet.md
+          - ASP.NET Core: interview-prep/technical-topics/aspnet-core.md
+          - Microservices: interview-prep/technical-topics/microservices.md
+          - Distributed Systems: interview-prep/technical-topics/distributed-systems.md
+          - Kafka / Message Queue: interview-prep/technical-topics/kafka-message-queue.md
+          - Redis: interview-prep/technical-topics/redis.md
+          - PostgreSQL: interview-prep/technical-topics/postgresql.md
+          - System Design: interview-prep/technical-topics/system-design.md
+          - Observability: interview-prep/technical-topics/observability.md
+          - Security / Auth: interview-prep/technical-topics/security-auth.md
+          - Performance / Scalability: interview-prep/technical-topics/performance-scalability.md
+      - Proje Anlatımları:
+          - Genel Bakış: interview-prep/project-stories/index.md
+          - Real-Time Market Data: interview-prep/project-stories/realtime-market-data.md
+          - Backend Services: interview-prep/project-stories/backend-services.md
+          - WebSocket Distribution: interview-prep/project-stories/websocket-distribution.md
+          - Redis Cache: interview-prep/project-stories/redis-cache.md
+          - PostgreSQL Performance: interview-prep/project-stories/postgresql-performance.md
+      - Mülakat Soruları:
+          - Genel Bakış: interview-prep/interview-questions/index.md
+          - Teknik Sorular: interview-prep/interview-questions/technical-questions.md
+          - Davranışsal Sorular: interview-prep/interview-questions/behavioral-questions.md
+          - Şirkete Sorulacak Sorular: interview-prep/interview-questions/company-questions.md
+      - Eksik Konular:
+          - Genel Bakış: interview-prep/weak-areas/index.md
+          - Çalışma Planı: interview-prep/weak-areas/study-plan.md
+      - Mülakat Notları:
+          - Genel Bakış: interview-prep/interview-notes/index.md
+          - Not Şablonu: interview-prep/interview-notes/template.md 
